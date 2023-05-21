@@ -13,12 +13,12 @@ useEffect(() => {
         return() => mount = false
     })
 }, [])
-    
+
     return (
         <div>
         <h3>PATIENT LIST</h3>
         <table border={"2px"} cellPadding={"10px"}>
-       
+
             <thead>
                 <tr>
                     <td>First Name</td>
@@ -35,7 +35,7 @@ useEffect(() => {
                     <td>{patient.blood}</td>
                     <td><button>Edit</button> <button>Delete</button></td>
                 </tr>
-                    
+
                 })}
 
             </tbody>
